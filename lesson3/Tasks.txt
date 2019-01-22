@@ -1,0 +1,9 @@
+*git add - добавляет документ в репозиторий GIT
+git init - создает  GIT репозиторий, или реинициализирует существующий. При инитиализации создается невидимая папка .git, которая указывает на то что данная папка в репозитории GIT.
+git commit - сохраняет изменения в репозитории
+git push - Обновляет данные на сервере в GITHUB
+
+**C:\Users\User>copy C:\Users\User\Desktop\me.jpg C:\Users\User\Desktop\Java\homework\lesson3
+        1 file(s) copied.
+
+***C:\Users\User\Desktop\Java\homework\lesson3>del *.mp3
