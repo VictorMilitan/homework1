@@ -8,11 +8,9 @@ public class WhatsUp {
 		Scanner reader = new Scanner(System.in);
 		String userName = reader.next();
 		System.out.println("\nWhat is yout Surname?");
-		Scanner reader2 = new Scanner(System.in);
-		String userSurname = reader2.next();
+		String userSurname = reader.next();
 		System.out.println("\nWhat do you do?");
-		Scanner reader3 = new Scanner(System.in);
-		String userOccupation = reader3.next();
+		String userOccupation = reader.next();
 		reader.close();
 		System.out.println("\nSo, you are " + userName + " " + userSurname + ("\nand you are ") + userOccupation);
 	}
