@@ -5,13 +5,13 @@
  */
 package employeemanager.models.implementations;
 
-import employeemanager.models.Employee;
+import employeemanager.models.Employee1;
 
 /**
  *
  * @author User
  */
-public class Accountant extends Employee {
+public class Accountant extends Employee1 {
     
     public void calculate() {
         System.out.println("Accountant calculates");
@@ -27,7 +27,7 @@ public class Accountant extends Employee {
 
 class AccountDemo {
     public static void main (String[] args) {
-        Employee employee = new Employee();
+        Employee1 employee = new Employee1();
         employee.work();
         
         Accountant acc = new Accountant();

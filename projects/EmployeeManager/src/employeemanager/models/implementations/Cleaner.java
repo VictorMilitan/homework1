@@ -5,14 +5,14 @@
  */
 package employeemanager.models.implementations;
 
-import employeemanager.models.Employee;
+import employeemanager.models.Employee1;
 
 
 /**
  *
  * @author User
  */
-public class Cleaner extends Employee {
+public class Cleaner extends Employee1 {
     
     @Override
     public String toString(){

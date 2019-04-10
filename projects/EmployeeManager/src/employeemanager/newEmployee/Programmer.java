@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package employeemanager.models.implementations;
+package employeemanager.newEmployee;
 
-import employeemanager.models.Employee1;
 /**
  *
  * @author User
  */
-public class Programmer extends Employee1 {
+public class Programmer extends Employee {
+    String type = "programmer";
     
-    public void sleep() {
-        
+    public Programmer(String name, String surname) {
+        super(name, surname);
     }
     
+    @Override
     public void work() {
-        
+        System.out.println("I am programmer");
     }
+    
 }

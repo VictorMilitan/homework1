@@ -11,8 +11,8 @@ package employeemanager.models;
  */
 public class NewClass {
     public static void main(String [] args) {
-        Employee jake = new Employee();
-        Employee peter = new Employee();
+        Employee1 jake = new Employee1();
+        Employee1 peter = new Employee1();
         System.out.println("jake == peter");
         //jake.
         //public String name;

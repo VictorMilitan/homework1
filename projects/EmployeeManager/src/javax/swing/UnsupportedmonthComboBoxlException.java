@@ -3,21 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package employeemanager.models.implementations;
-
-import employeemanager.models.Employee1;
+package javax.swing;
 
 /**
  *
  * @author User
  */
-public class Manager extends Employee1{
+public class UnsupportedmonthComboBoxlException {
     
-    public void rules() {
-        
-    }
-    
-    public void screams() {
-        
-    }
 }

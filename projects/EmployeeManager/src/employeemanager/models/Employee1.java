@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package employeemanager.models.implementations;
-
-import employeemanager.models.Employee1;
+package employeemanager.models;
 
 /**
  *
  * @author User
  */
-public class Manager extends Employee1{
+public class Employee1 {
     
-    public void rules() {
-        
-    }
+    public  String name;
+    public String surname;
+    public int age;
     
-    public void screams() {
-        
+    public void work() {
+        System.out.println("I am a new employee,and i'm making great coffee");
     }
 }
